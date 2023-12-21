@@ -1,21 +1,22 @@
 import sys
 
-sum = 0
+if __name__ == "__main__":
+    sum = 0
 
-for line in sys.stdin:
-    start = ""
-    end = ""
-    found_first = False
+    for line in sys.stdin:
+        start = ""
+        end = ""
+        found_first = False
 
-    for c in line:
-        if c.isnumeric():
-            if not found_first:
-                start = c
-                found_first = True
-            end = c
+        for c in line:
+            if c.isnumeric():
+                if not found_first:
+                    start = c
+                    found_first = True
+                end = c
 
-    number = int(start + end)
+        number = int(start + end)
 
-    sum += number
+        sum += number
 
-print(sum)
+    print(sum)
