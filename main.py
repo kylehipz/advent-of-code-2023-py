@@ -1,5 +1,5 @@
-from day2 import day2
+from day2part2 import day2part2
 
 
 if __name__ == "__main__":
-    day2()
+    day2part2()
