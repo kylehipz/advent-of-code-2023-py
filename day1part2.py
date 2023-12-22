@@ -1,7 +1,7 @@
 import sys
 
 
-if __name__ == "__main__":
+def day1_part2():
     digit_map = {
         "one": "1",
         "two": "2",

@@ -1,6 +1,7 @@
 import sys
 
-if __name__ == "__main__":
+
+def day1():
     sum = 0
 
     for line in sys.stdin:
